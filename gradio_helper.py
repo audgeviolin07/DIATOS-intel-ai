@@ -151,7 +151,6 @@ def make_demo(run_fn: Callable, stop_fn: Callable, title: str = "DIATOS Intel Op
         with gr.Row(elem_classes="header-footer"):
             gr.Markdown(f"""<footer class="glow-text">✨ Built by Audrey Chen: Intel AI PC Pilot Project © 2024 ✨</footer>""")
 
-        # Trigger classification when "Classify" button is pressed, with 2-second delay
         def delayed_classification():
             time.sleep(5)
             return "Diagnosis: "
