@@ -44,11 +44,9 @@ def get_uuid():
 
 def handle_user_message(message, history):
     """
-    Handles user messages for the chatbot.
+    callback function for updating user messages in interface on submit button click
     """
-    # This is where you'd integrate your LLM to respond to messages.
-    response = run_fn(message)  # Assuming `run_fn` is your LLM response function
-    return "", history + [[message, response]]
+    return "", history + [[message, ""]]
 
 
 def make_demo(run_fn: Callable, stop_fn: Callable, title: str = "DIATOS Intel OpenVINO Interface", language: Literal["English", "Chinese", "Japanese"] = "English"):
@@ -153,26 +151,11 @@ def make_demo(run_fn: Callable, stop_fn: Callable, title: str = "DIATOS Intel Op
         with gr.Row(elem_classes="header-footer"):
             gr.Markdown(f"""<footer class="glow-text">✨ Built by Audrey Chen: Intel AI PC Pilot Project © 2024 ✨</footer>""")
 
-        # Trigger classification when "Classify" button is pressed, with 5-second delay
+        # Trigger classification when "Classify" button is pressed, with 2-second delay
         def delayed_classification():
             time.sleep(5)
-            return "Diagnosis: Severe"
+            return "Diagnosis: "
 
         classify.click(fn=delayed_classification, inputs=[], outputs=[classification_status])
-
-        # Event handling for chat submission
-        submit_event = msg.submit(
-            fn=handle_user_message, inputs=[msg, chatbot], outputs=[msg, chatbot], queue=False,
-        )
-
-        submit_click_event = submit.click(
-            fn=handle_user_message, inputs=[msg, chatbot], outputs=[msg, chatbot], queue=False,
-        )
-
-        stop.click(
-            fn=stop_fn, inputs=None, outputs=None, cancels=[submit_event, submit_click_event], queue=False,
-        )
-
-        clear.click(lambda: None, None, chatbot, queue=False)
 
     return demo
