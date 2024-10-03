@@ -10,7 +10,10 @@ DIATOS is a Diabetic Retinopathy diagnosis model and multimodal user interface t
 <img width="850" alt="Screenshot 2024-10-03 at 11 50 46 AM" src="https://github.com/user-attachments/assets/13bf9b01-a117-45ca-84fc-b7ee44102d81">
 
 
+
 6 different components of the OpenVINO ecosystem were utilized in the project. Qwen 2.5–0.6b-instruct was used as the natural language LLM, pulled from the OpenVINO repository toolkit, Intel's NPU Acceleration Library was utilized for preprocessing, Optimum was utilized for model export, TensorFlow and Pytorch OpenVINO integrations were utilized for the transfer learning.
+
+
 <img width="850" alt="Screenshot 2024-10-03 at 11 50 58 AM" src="https://github.com/user-attachments/assets/a88ac362-76e0-4e10-847a-9a0a744d02d8">
 <img width="851" alt="Screenshot 2024-10-03 at 11 51 07 AM" src="https://github.com/user-attachments/assets/b4a51bb9-a0da-4161-be78-7aed1b61498c">
 <img width="854" alt="Screenshot 2024-10-03 at 11 51 17 AM" src="https://github.com/user-attachments/assets/a1fc52a6-6f37-4072-b067-d5e58cb58878">
@@ -22,5 +25,7 @@ DIATOS is a Diabetic Retinopathy diagnosis model and multimodal user interface t
 <img width="849" alt="Screenshot 2024-10-03 at 11 51 39 AM" src="https://github.com/user-attachments/assets/432cb85a-196c-4c90-a556-80a02e2f115b">
 
 The final result after boosting the model with Intel AI PC components was an 80% accuracy for categorizing 4 stages of Diabetic Retinopathy, yielding an impact of 30% increase in early stage Diabetic Retinopathy Detection, and 60% decrease in computational costs.
+
+
  <img width="852" alt="Screenshot 2024-10-03 at 11 51 50 AM" src="https://github.com/user-attachments/assets/da4a2d46-6201-4a35-9110-f1774d6ca0e1">
 <img width="854" alt="Screenshot 2024-10-03 at 11 51 57 AM" src="https://github.com/user-attachments/assets/13dcce62-e121-4730-b96d-39b78875ab26">
