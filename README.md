@@ -1,6 +1,8 @@
 I did a majority of the work over the course of my project on the Intel Open Vino Repo, and these are my final codes to get my desired output!
 
 <img width="851" alt="Screenshot 2024-10-03 at 11 52 07 AM" src="https://github.com/user-attachments/assets/77ad1e44-8622-40e0-8af4-3b8c56a01f86">
+<img width="687" alt="Screenshot 2024-10-03 at 12 01 35 PM" src="https://github.com/user-attachments/assets/3b004ab2-2c67-4eaa-989b-c330adab31e8">
+
 
 DIATOS is a Diabetic Retinopathy diagnosis model and multimodal user interface that was custom trained from an initial 67% accuracy to utilizing the Intel AI PC's NPU preprocess and train a transfer learning model of Resnet50 finetuned on a kaggle Diabetic Retinopathy dataset. 
 
