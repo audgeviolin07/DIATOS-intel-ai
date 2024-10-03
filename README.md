@@ -1,7 +1,7 @@
 I did a majority of the work over the course of my project on the Intel Open Vino Repo, and these are my final codes to get my desired output!
 
 <img width="851" alt="Screenshot 2024-10-03 at 11 52 07 AM" src="https://github.com/user-attachments/assets/77ad1e44-8622-40e0-8af4-3b8c56a01f86">
-<img width="1086" alt="Screenshot 2024-10-03 at 12 02 59 PM" src="https://github.com/user-attachments/assets/52b24821-e336-4a39-8db4-c7b7bf3af0e8">
+<img width="1086" alt="Screenshot 2024-10-03 at 12 02 59 PM" src="https://github.com/user-attachments/assets/52b24821-e336-4a39-8db4-c7b7bf3af0e8"><img width="1286" alt="Screenshot 2024-10-03 at 12 06 44 PM" src="https://github.com/user-attachments/assets/ddb4e2d5-bcd7-46ab-a1db-18756a7c746a">
 
 
 
@@ -11,7 +11,7 @@ DIATOS is a Diabetic Retinopathy diagnosis model and multimodal user interface t
 <img width="853" alt="Screenshot 2024-10-03 at 11 50 28 AM" src="https://github.com/user-attachments/assets/ac144c16-e540-472f-bb5b-d2e00074bc3f">
 <img width="850" alt="Screenshot 2024-10-03 at 11 50 36 AM" src="https://github.com/user-attachments/assets/bf0cbbdb-c043-4dd8-8885-c9f5a07bda8a">
 <img width="850" alt="Screenshot 2024-10-03 at 11 50 46 AM" src="https://github.com/user-attachments/assets/13bf9b01-a117-45ca-84fc-b7ee44102d81">
-<img width="1286" alt="Screenshot 2024-10-03 at 12 06 44 PM" src="https://github.com/user-attachments/assets/ddb4e2d5-bcd7-46ab-a1db-18756a7c746a">
+
 
 
 
