@@ -11,6 +11,7 @@ DIATOS is a Diabetic Retinopathy diagnosis model and multimodal user interface t
 <img width="853" alt="Screenshot 2024-10-03 at 11 50 28 AM" src="https://github.com/user-attachments/assets/ac144c16-e540-472f-bb5b-d2e00074bc3f">
 <img width="850" alt="Screenshot 2024-10-03 at 11 50 36 AM" src="https://github.com/user-attachments/assets/bf0cbbdb-c043-4dd8-8885-c9f5a07bda8a">
 <img width="850" alt="Screenshot 2024-10-03 at 11 50 46 AM" src="https://github.com/user-attachments/assets/13bf9b01-a117-45ca-84fc-b7ee44102d81">
+<img width="1286" alt="Screenshot 2024-10-03 at 12 06 44 PM" src="https://github.com/user-attachments/assets/ddb4e2d5-bcd7-46ab-a1db-18756a7c746a">
 
 
 
